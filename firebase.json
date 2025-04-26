@@ -1,0 +1,31 @@
+{
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "comas1163",
+          "configurations": {
+            "macos": "1:521840944252:ios:cdec55653c97f47d2455f9",
+            "web": "1:521840944252:web:e73596cd01f05c112455f9",
+            "windows": "1:521840944252:web:20629bcd80ddf9852455f9"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}

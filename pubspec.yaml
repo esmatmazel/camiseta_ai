@@ -1,0 +1,27 @@
+name: camiseta_ai
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+  firebase_core: ^3.13.0  # Firebase Core
+  cloud_firestore: ^5.6.6  # Firestore for Firebase Database
+  firebase_auth: ^5.5.2  # Firebase Auth (Eğer kullanıcı yönetimi yapacaksanız)
+  firebase_storage: ^12.4.5  # Firebase Storage (Fotoğraf yükleme için)
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
